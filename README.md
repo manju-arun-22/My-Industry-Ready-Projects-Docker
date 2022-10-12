@@ -9,4 +9,4 @@ Demonstrate minimum 15 basic docker command with explanation and screenshot.
 docker pull
 ```
  docker pull <image name> : use to pull image from docker hub
- ![Alt text](Documents/docker-1.jpg?raw=true "docker 1")
+ ![Alt text](docker-1.jpg?raw=true "docker 1")
