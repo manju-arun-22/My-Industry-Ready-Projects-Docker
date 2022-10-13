@@ -71,7 +71,41 @@ But when it is taking too much time for getting the container to stop, we can op
 
  ![image](https://user-images.githubusercontent.com/112603638/195529842-2c29b606-d9b9-4614-8eea-1b8fd8c1463a.png)
 
+ #8 
+ ```
+	docker commit
+ ```
  
+ docker commit <conatainer id> <username/imagename>
+ 
+ This command creates a new image of an edited container on the local system
+
+ ![image](https://user-images.githubusercontent.com/112603638/195577221-08391be1-b4c5-4de5-b333-dcb1f7f8614b.png)
+
+
+ #9
+ ```
+  docker login
+ ```
+ 
+This command is used to login to the docker hub repository
+
+ ![image](https://user-images.githubusercontent.com/112603638/195577336-0889ad43-f310-4086-9d17-92eda7b35fd9.png)
+
+ #10
+ 
+ ```
+ docker push
+ ```
+ 
+ docker push <username/image name>
+ 
+ This command is used to push an image to the docker hub repository
+ ![image](https://user-images.githubusercontent.com/112603638/195577513-f78643c8-2da8-4af4-b55f-1d451e637514.png)
+
+
+ 
+
 
 
 
