@@ -104,6 +104,54 @@ This command is used to login to the docker hub repository
  ![image](https://user-images.githubusercontent.com/112603638/195577513-f78643c8-2da8-4af4-b55f-1d451e637514.png)
 
 
+#11
+```
+docker images
+```
+
+This command lists all the locally stored docker images.
+
+![image](https://user-images.githubusercontent.com/112603638/195679319-5d863e4e-2682-42f2-8baf-a3b0b4566587.png)
+
+
+#12
+```
+docker rm
+```
+
+docker rm <container id>
+This command is used to delete a stopped container.
+![image](https://user-images.githubusercontent.com/112603638/195679459-720f8ad8-d24f-4288-82e5-71cc411d845a.png)
+
+
+#13
+```
+docker rmi
+```
+docker rmi <image-id>
+This command is used to delete an image from local storage.
+
+![image](https://user-images.githubusercontent.com/112603638/195679596-4f71a88d-1b0f-4dbc-bc3d-81b6707654e3.png)
+ 
+#14
+```
+docker build
+```
+
+This command is used to build an image from a specified Dockerfile
+
+![image](https://user-images.githubusercontent.com/112603638/195679713-ba769814-add4-44b1-a1a4-f3e8e6517b3e.png)
+
+#15 
+```
+docker start
+```
+docker start <containerid>
+command used to start a stopped container
+
+![image](https://user-images.githubusercontent.com/112603638/195680270-e97510d1-89c3-4241-8079-02bc694a6291.png)
+
+
  
 
 
