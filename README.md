@@ -35,5 +35,39 @@ docker ps command is used to list running containers
  docker ps -a command is used to list all the containers
  
  ![image](https://user-images.githubusercontent.com/112603638/195424549-db3e24c0-f584-4103-9db9-07fd34f66ac1.png)
+ 
+ #5
+ 
+ ```
+ docker exex
+ 
+ ```
+docker exec -it <container id> bash
+This command is used to access the running container
+![image](https://user-images.githubusercontent.com/112603638/195526104-2018848e-001e-4548-93a5-1254b6134c6b.png)
+
+ #6
+ ```
+ docker stop
+ ```
+docker stop < container id>
+This command is used to stop a running container
+![image](https://user-images.githubusercontent.com/112603638/195528688-6a793281-bc87-4af7-9283-53ce04da127d.png)
+
+ #7
+ ```
+ docker kill
+ ```
+docker kill <container id>
+This command stops the container immediately
+Docker stop command gives the container time to shutdown gracefully.
+But when it is taking too much time for getting the container to stop, we can opt to kill it.
+
+ ![image](https://user-images.githubusercontent.com/112603638/195529842-2c29b606-d9b9-4614-8eea-1b8fd8c1463a.png)
+
+ 
+
+
+
 
  
