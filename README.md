@@ -152,7 +152,16 @@ command used to start a stopped container
 ![image](https://user-images.githubusercontent.com/112603638/195680270-e97510d1-89c3-4241-8079-02bc694a6291.png)
 
 
- 
+Assignment 2:
+Hello World Docker Image Run Hello World Docker Image Locally.
+```
+docker pull hello-world
+```
+```
+docker run hello-world
+```
+![image](https://user-images.githubusercontent.com/112603638/195885254-b4f6d9f9-e205-47a2-ae93-5b55d1cb830c.png)
+
 
 
 
